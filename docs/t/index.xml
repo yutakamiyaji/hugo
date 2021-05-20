@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ts on MyjLab</title>
+    <link>https://www.myjlab.org/t/</link>
+    <description>Recent content in Ts on MyjLab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Aug 2016 18:16:45 +0900</lastBuildDate><atom:link href="https://www.myjlab.org/t/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2011年度 研究テーマ</title>
+      <link>https://www.myjlab.org/t/2011themes/</link>
+      <pubDate>Mon, 22 Aug 2016 18:16:45 +0900</pubDate>
+      
+      <guid>https://www.myjlab.org/t/2011themes/</guid>
+      <description> B区分  チェックイン型モバイルアプリケーションを用いたウェブサービスの構築 twitterによる情報取得システムの構築 タグ付けによる広告クリック誘引システム スマートフォンにおけるキャンパスナビゲーションシステムの構築　～GPS・ARを活用した+ 情報提示アプリ～ Kinectを用いた仮想試着システムの構築 NUIによる情報家電ネットワークの構築 エージェントによる相模原キャンパスにおける避難シミュレーション  A区分  ファッションオンラインショッピングにおけるマーケティングの成功要因 SNSにおけるセルフブランディング ソーシャルゲーム業界における日本企業の優位性と課題 災害時のソーシャルメディアのあり方 東日本大震災におけるインターネット業界の動向 日本の電子書籍市場が拡大するには AR（拡張現実感）を利用した技術とこれからの可能性 初心者へ向けたプログラミング教育の改善　-JavaScriptによるプログラミング授業設計-   </description>
+    </item>
+    
+    <item>
+      <title>2012年度 研究テーマ</title>
+      <link>https://www.myjlab.org/t/2012themes/</link>
+      <pubDate>Mon, 22 Aug 2016 18:16:45 +0900</pubDate>
+      
+      <guid>https://www.myjlab.org/t/2012themes/</guid>
+      <description> B区分  HUNET ーFacebookのlike分析による人物マッチングシステムー 複数のUI実装によるスマートフォンアプリケーションのユーザビリティ分析 位置情報に基づく滞在情報管理システムの開発 社会情報学部生の履修分野を可視化するイラストジェネレータ  A区分  利用者数推移から見るIT産業の流行加速度 音楽の理想的な価値と消費方法 オンラインショッピングの決済手段の実態 ーPayPalの日本での展望ー コンピュータゲームにおけるコミュニケーションの役割と展望 コミュニケーションツールとしてのSNSの現状と今後 Facebookページにおけるコミュニケーション量とページ認知度の関係性 高齢者のデジタルディバイド ーシニア向けSNSの提案ー 携帯メール利用時の顔文字における男女差の調査 再評価されるGIF動画　モバイル時代への調和 移住希望者と受け入れ地域を繋ぐシステムの提案 ウェアラブル・コンピュータがもたらす社会の変化   </description>
+    </item>
+    
+    <item>
+      <title>2013年度 研究テーマ</title>
+      <link>https://www.myjlab.org/t/2013themes/</link>
+      <pubDate>Mon, 22 Aug 2016 18:16:45 +0900</pubDate>
+      
+      <guid>https://www.myjlab.org/t/2013themes/</guid>
+      <description> M  Twitterを対象とした評価極性判定システムの構築  B区分  Facebookのデータ分析によるスポット提示システムの構築 Twitterの感情極性分析による好感度調査手法の実装 高等学校共通教科「情報」における教育改善 -インタラクティブデジタル教材の提案・作成- 人々の「知りたい」を調べる検索システムの構築 使いやすい関係図作成・共有Webサービスの構築 演劇を見に行きたくなるWEBサービスの開発 ー日本の観劇数向上のためにー センサネットワークを用いた学内ナビゲーションシステムの構築  A区分  視覚障害者のタッチスクリーン端末利用について 重度肢体不自由者の介護活動におけるコミュニケーションシステムの提案 ICTによるFund-Rasingの可能性 インターネットにおける選挙運動の現状と課題 個人メディアとしてのソーシャルメディア スマートフォン向け学生ポータルサービスの提案 e-Learning を利用した情報教育についての一考察   </description>
+    </item>
+    
+    <item>
+      <title>2014年度 研究テーマ</title>
+      <link>https://www.myjlab.org/t/2014themes/</link>
+      <pubDate>Mon, 22 Aug 2016 18:16:45 +0900</pubDate>
+      
+      <guid>https://www.myjlab.org/t/2014themes/</guid>
+      <description> B区分  iBeaconを用いた出席管理システムの構築 ビーコンルームにおける位置情報提示システム ファッション系統に基づくレコメンデーションシステム フォローネットワークから探るTwitterの中心人物 −中心性と被リツイート数の関係− Oculus Rift を利用した VR ゴルフ体験型アプリケーションの開発 ウェアラブルデバイスと拡張現実感による広告展示・購買システム 博物館におけるセンサーデバイスを用いた体感型展示システムの開発 スマートツーリズム構想に基づく観光誘致カメラアプリケーション プロジェクションマッピングと Kinect による店頭ディスプレイ用アプリケーションの構築 視覚障害者に配慮したタッチデバイス・アプリの操作性の検証 情報セキュリティリテラシ向上のための不正アクセス可視化システムの構築 複数の視点で Twitter の「つぶやき」を振り返るウェブサービスの構築 掲示板型SNSサービスの構築 −話題の繋がりから人の繋がりを作るSNS− 行政機関のコールセンターにおけるFAQの分析・改善 −町田市役所を事例に−  A区分  SNSの効用に関する考察 −若者のLINE・Twitter・Facebookの利用動機 Webメディアにおけるクオリティ低下問題の改善策 女性就業促進に関する考察 −テレワークと海外事例からの提案− 2020 東京オリンピック開催に向けた ICT を用いたマーケティング戦略 艦隊これくしょん−艦これ−から見るオンラインゲームがヒットする要因   </description>
+    </item>
+    
+    <item>
+      <title>2015年度 研究テーマ</title>
+      <link>https://www.myjlab.org/t/2015themes/</link>
+      <pubDate>Mon, 22 Aug 2016 18:16:45 +0900</pubDate>
+      
+      <guid>https://www.myjlab.org/t/2015themes/</guid>
+      <description> M  利用者の行動状況に基づく情報提案システムの構築 インターネットサービスを主軸としたIT企業の業務に基づく実践的ソフトウェア開発実習  B  iBeaconを用いた滞在時間と個人の興味データに基づく観光地推薦システム Twitterデータに基づく関心事項提示システム 写真のExif情報を利用した観光推薦システム Word Cloud を用いたメディアの話題度閲覧システム Microsoft Azureを用いた多ジャンル推薦システム Twitterの共通一般ユーザの情報を利用したフォロー推薦の有効性 Kinect によるダンス初心者習得支援システム スクワットによる筋力低下予防を目的とした高齢者向けアプリケーションの構築 拡張現実感による校外学習用アプリケーションの開発   </description>
+    </item>
+    
+    <item>
+      <title>2016年度 研究テーマ</title>
+      <link>https://www.myjlab.org/t/2016themes/</link>
+      <pubDate>Mon, 22 Aug 2016 18:16:45 +0900</pubDate>
+      
+      <guid>https://www.myjlab.org/t/2016themes/</guid>
+      <description> M  word2vecを用いた連想検索可視化システムの構築 カメラ及びBeacon技術を用いた移動履歴生成システムの構築  B  ユーザの行動履歴を用いたスポット推薦システムの構築 宿泊レビューにおける評価視点ごとの評判の可視化と相対的特徴抽出 商品選択における訴求要素の分析 Twitterにおける潜在的インフルエンサの抽出と影響ジャンルの推定 SVMを用いたツイート分析によるユーザの生活圏推定 ツイートの共起頻度による話題変遷の可視化 Twitterにおける東京都の多言語混在状況の分布抽出と可視化 流行の発生と収束に関する時系列分析〜Twitter と Google を比較して〜 ビーコンを用いた屋内環境における視覚障害者歩行支援システムの構築 小説の印象に応じた背景音楽の自動生成システムの構築 社会情報学部への興味を高めるためのインタラクティブ・デジタルサイネージ   </description>
+    </item>
+    
+    <item>
+      <title>2017年度 研究テーマ</title>
+      <link>https://www.myjlab.org/t/2017themes/</link>
+      <pubDate>Mon, 22 Aug 2016 18:16:45 +0900</pubDate>
+      
+      <guid>https://www.myjlab.org/t/2017themes/</guid>
+      <description> M  ウェアラブルデバイスと機械学習を用いたメンタルヘルス推定 機械学習を利用したパケットキャプチャデータによる悪性通信検知検知システム  B  中高バレー部を対象としたゲームデータ分析システム 大学テニス選手における打球の特徴判別と改善 Unityを用いたマルチエージェントシミュレーション 複数カメラによる3Dモデリングを用いた人物追跡システム PCワークの進捗監視システム ユーザレビューを用いたコミックレコメンドシステム 高齢者自立支援のためのリハビリ進捗自動管理 仮想現実を利用したプレゼンテーション練習システム 印象に基づいたフォント提案   </description>
+    </item>
+    
+    <item>
+      <title>2018年度 研究テーマ</title>
+      <link>https://www.myjlab.org/t/2018themes/</link>
+      <pubDate>Mon, 22 Aug 2016 18:16:45 +0900</pubDate>
+      
+      <guid>https://www.myjlab.org/t/2018themes/</guid>
+      <description> M  文章ベクトルを用いた色彩選択システム 目的に応じた適切な人物動作認識手法の検討 ニュースにおける特徴語の副次的意味変遷可視化システム構築  B  HMDを用いた聴覚障がい者のための音声情報提示システム 自動撮影・記録によるコーディネート管理支援システム 住居内行動把握のための動画記録システム 視線移動の抑制による速読システム 複数ユーザの嗜好に応じた楽曲レコメンデーションシステム 一人暮らしの栄養バランスを考慮した料理レシピ支援システム 自然言語処理を用いたコンテンツ作品のクロスドメイン推薦 位置情報と時間帯情報を用いたスポットレコメンデーションシステム 観光レビューを利用した高好感度観光地レコメンデーションシステム   </description>
+    </item>
+    
+    <item>
+      <title>2019年度 研究テーマ</title>
+      <link>https://www.myjlab.org/t/2019themes/</link>
+      <pubDate>Mon, 22 Aug 2016 18:16:45 +0900</pubDate>
+      
+      <guid>https://www.myjlab.org/t/2019themes/</guid>
+      <description> M  単語ベクトルを用いた潜在的共通項可視化システム  B  Doc2Vec を用いた楽曲に適した色彩推薦システム 各政党活動の視覚化による思考支援 黄金比率に基づくメイクアップ支援システム OpenPose を用いた阿波踊りの定量的評価 趣味嗜好の異なる相手とのコミュニケーション支援ツール 拡張現実(AR)における空間共有を用いた情報提示システム 3D キャラクターとの表情コミュニケーションプラットフォーム 歌詞情報に基づく状況に応じた楽曲推薦システム   </description>
+    </item>
+    
+    <item>
+      <title>2020年度 研究テーマ</title>
+      <link>https://www.myjlab.org/t/2020themes/</link>
+      <pubDate>Mon, 22 Aug 2016 18:16:45 +0900</pubDate>
+      
+      <guid>https://www.myjlab.org/t/2020themes/</guid>
+      <description> M  感性語に着目した文章ベクトルによるコンテンツ作品のクロスドメイン推薦 学術論文のトピックを用いた論文検索システム  B  視覚障害者向け周辺情報提示システム レビュー情報を基にした抽象度の高いニーズに対する書籍推薦システム レビュー文の可視化による商品選択支援 ３ D モデルで構成されたヴァーチャルキャンパス 感情可視化機能を搭載した iCBT-AI システム Twitter におけるデマ拡散抑制システム 仮想空間でのプレゼントレーニングツール ツイートデータを用いた精神状態と生活習慣の可視化システム 災害時を想定した個人の備蓄を促すシステム リアルタイム監視による不正ログイン検知システム   </description>
+    </item>
+    
+  </channel>
+</rss>

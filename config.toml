@@ -1,4 +1,6 @@
 baseurl = "https://www.myjlab.org/"
+publishDir = "docs"
+canonifyurls = true
 title = "MyjLab"
 theme = "universal"
 themesDir = "themes/"
