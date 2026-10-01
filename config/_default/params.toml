@@ -1,0 +1,46 @@
+colorScheme = "blowfish"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+enableSearch = true
+enableCodeCopy = true
+mainSections = ["blog"]
+disableImageOptimization = false
+
+[header]
+  layout = "basic"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "landing"
+  showRecent = true
+  showRecentItems = 4
+  showMoreLink = true
+  showMoreLinkDest = "/blog/"
+  cardView = true
+
+[article]
+  showDate = false
+  showAuthor = false
+  showReadingTime = false
+  showTableOfContents = true
+  showBreadcrumbs = true
+  showPagination = true
+  showTaxonomies = false
+
+[list]
+  showBreadcrumbs = true
+  showSummary = true
+  showTableOfContents = false
+  groupByYear = false
+  cardView = true
+
+[term]
+  showBreadcrumbs = true
+  showSummary = true
+  cardView = true
