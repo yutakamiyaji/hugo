@@ -1,0 +1,226 @@
+/* MyjLab homepage enhancements */
+.myj-visual {
+  position: relative;
+  overflow: hidden;
+  min-height: 330px;
+  margin: 3.5rem 0 4.5rem;
+  border-radius: 1.75rem;
+  background: #0f2a5f;
+  box-shadow: 0 24px 70px rgba(15, 42, 95, 0.18);
+}
+
+.myj-visual__image {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(9, 27, 64, .92) 0%, rgba(9, 27, 64, .72) 42%, rgba(9, 27, 64, .18) 100%),
+    url('/img/banners/banner-1.jpg') center/cover no-repeat;
+  transform: scale(1.02);
+}
+
+.myj-visual__overlay {
+  position: relative;
+  z-index: 1;
+  max-width: 680px;
+  padding: 4.5rem 4rem;
+  color: white;
+}
+
+.myj-visual__overlay h2 {
+  margin: .4rem 0 1rem;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.12;
+  color: white;
+}
+
+.myj-visual__overlay p {
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.85;
+  color: rgba(255,255,255,.9);
+}
+
+.myj-visual__eyebrow,
+.myj-kicker {
+  margin: 0;
+  font-size: .76rem;
+  font-weight: 800;
+  letter-spacing: .22em;
+  color: #2563eb;
+}
+
+.myj-visual__eyebrow {
+  color: #9ec5ff !important;
+}
+
+.myj-section {
+  margin: 4.5rem 0;
+}
+
+.myj-section--soft {
+  padding: 3.5rem;
+  border-radius: 1.75rem;
+  background: linear-gradient(180deg, rgba(37,99,235,.055), rgba(37,99,235,.018));
+}
+
+.myj-section__head {
+  max-width: 760px;
+  margin-bottom: 2rem;
+}
+
+.myj-section__head h2,
+.myj-about h2 {
+  margin: .5rem 0 .75rem;
+  font-size: clamp(1.9rem, 3vw, 2.7rem);
+}
+
+.myj-section__head > p:last-child {
+  color: rgba(30, 41, 59, .78);
+}
+
+.dark .myj-section__head > p:last-child {
+  color: rgba(226, 232, 240, .72);
+}
+
+.myj-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.myj-grid--research {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.myj-grid--links {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.myj-card,
+.myj-linkcard {
+  display: block;
+  text-decoration: none !important;
+  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+}
+
+.myj-card {
+  padding: 2rem;
+  border: 1px solid rgba(148,163,184,.28);
+  border-radius: 1.35rem;
+  background: rgba(255,255,255,.72);
+  box-shadow: 0 10px 35px rgba(15,23,42,.055);
+}
+
+.dark .myj-card {
+  background: rgba(15,23,42,.52);
+  border-color: rgba(148,163,184,.16);
+}
+
+.myj-card:hover,
+.myj-linkcard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 45px rgba(15,23,42,.12);
+}
+
+.myj-card__icon {
+  display: inline-grid;
+  place-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  margin-bottom: 1.15rem;
+  border-radius: .85rem;
+  background: rgba(37,99,235,.1);
+  color: #2563eb;
+  font-weight: 800;
+  font-size: .86rem;
+}
+
+.myj-card h3,
+.myj-linkcard h3 {
+  margin: 0 0 .65rem;
+  font-size: 1.28rem;
+}
+
+.myj-card p,
+.myj-linkcard p {
+  margin: 0 0 1.2rem;
+  line-height: 1.75;
+  color: rgba(51,65,85,.82);
+}
+
+.dark .myj-card p,
+.dark .myj-linkcard p {
+  color: rgba(226,232,240,.72);
+}
+
+.myj-card span {
+  color: #2563eb;
+  font-weight: 700;
+  font-size: .92rem;
+}
+
+.myj-linkcard {
+  min-height: 220px;
+  padding: 2rem;
+  border-radius: 1.3rem;
+  background: white;
+  border: 1px solid rgba(148,163,184,.22);
+}
+
+.dark .myj-linkcard {
+  background: rgba(15,23,42,.66);
+  border-color: rgba(148,163,184,.15);
+}
+
+.myj-linkcard__label {
+  display: inline-block;
+  margin-bottom: 1.2rem;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .16em;
+  color: #2563eb;
+}
+
+.myj-about {
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 3rem;
+  margin: 5rem 0 2rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(148,163,184,.2);
+}
+
+.myj-about p {
+  line-height: 1.9;
+}
+
+@media (max-width: 860px) {
+  .myj-grid--research,
+  .myj-grid--links,
+  .myj-about {
+    grid-template-columns: 1fr;
+  }
+
+  .myj-section--soft {
+    padding: 2rem;
+  }
+
+  .myj-visual__overlay {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .myj-visual {
+    min-height: 360px;
+    border-radius: 1.2rem;
+  }
+
+  .myj-card,
+  .myj-linkcard {
+    padding: 1.5rem;
+  }
+
+  .myj-section {
+    margin: 3.2rem 0;
+  }
+}
