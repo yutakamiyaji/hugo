@@ -43,7 +43,7 @@ jobs:
 
       - name: Build offline browser preview
         run: |
-          hugo --gc --minify --relativeURLs --baseURL "./" --destination browser-preview
+          hugo --gc --minify --relativeURLs --baseURL "https://preview.local/" --destination browser-preview
           cat > browser-preview/OPEN-ME.txt <<'EOF'
           MyjLab Blowfish Preview
           =======================
