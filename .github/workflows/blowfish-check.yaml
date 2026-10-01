@@ -41,9 +41,24 @@ jobs:
       - name: Build site
         run: hugo --gc --minify --destination public-preview
 
-      - name: Upload preview artifact
+      - name: Build offline browser preview
+        run: |
+          hugo --gc --minify --relativeURLs --baseURL "./" --destination browser-preview
+          cat > browser-preview/OPEN-ME.txt <<'EOF'
+          MyjLab Blowfish Preview
+          =======================
+
+          1. Extract this ZIP.
+          2. Double-click index.html.
+          3. This preview does not change the live www.myjlab.org site.
+
+          Note: Some browser security features may limit search when opened as file://.
+          EOF
+
+      - name: Upload browser preview
         uses: actions/upload-artifact@v6
         with:
-          name: blowfish-preview
-          path: public-preview
+          name: myjlab-blowfish-browser-preview
+          path: browser-preview
           if-no-files-found: error
+          retention-days: 14
