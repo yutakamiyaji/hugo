@@ -1,9 +1,16 @@
-/* MyjLab homepage enhancements */
+/* =========================================================
+   MyjLab custom styles
+   ========================================================= */
+
+/* =========================================================
+   Homepage visual
+   ========================================================= */
+
 .myj-visual {
   position: relative;
   overflow: hidden;
   min-height: 330px;
-  margin: 3.5rem 0 4.5rem;
+  margin: 3rem 0;
   border-radius: 1.75rem;
   background: #0f2a5f;
   box-shadow: 0 24px 70px rgba(15, 42, 95, 0.18);
@@ -19,7 +26,7 @@
       rgba(9, 27, 64, 0.72) 42%,
       rgba(9, 27, 64, 0.18) 100%
     ),
-    url("/img/banners/banner-1.jpg") center/cover no-repeat;
+    url("/img/banners/banner-1.jpg") center / cover no-repeat;
   transform: scale(1.02);
 }
 
@@ -58,8 +65,12 @@
   color: #9ec5ff !important;
 }
 
+/* =========================================================
+   Homepage sections
+   ========================================================= */
+
 .myj-section {
-  margin: 4.5rem 0;
+  margin: 3.5rem 0;
 }
 
 .myj-section--soft {
@@ -70,6 +81,10 @@
     rgba(37, 99, 235, 0.055),
     rgba(37, 99, 235, 0.018)
   );
+}
+
+.myj-section--last {
+  margin-bottom: 1.5rem;
 }
 
 .myj-section__head {
@@ -90,6 +105,10 @@
 .dark .myj-section__head > p:last-child {
   color: rgba(226, 232, 240, 0.72);
 }
+
+/* =========================================================
+   Homepage grids / cards
+   ========================================================= */
 
 .myj-grid {
   display: grid;
@@ -142,8 +161,8 @@
   border-radius: 0.85rem;
   background: rgba(37, 99, 235, 0.1);
   color: #2563eb;
-  font-weight: 800;
   font-size: 0.86rem;
+  font-weight: 800;
 }
 
 .myj-card h3,
@@ -166,16 +185,16 @@
 
 .myj-card span {
   color: #2563eb;
-  font-weight: 700;
   font-size: 0.92rem;
+  font-weight: 700;
 }
 
 .myj-linkcard {
   min-height: 220px;
   padding: 2rem;
+  border: 1px solid rgba(148, 163, 184, 0.22);
   border-radius: 1.3rem;
   background: white;
-  border: 1px solid rgba(148, 163, 184, 0.22);
 }
 
 .dark .myj-linkcard {
@@ -186,11 +205,15 @@
 .myj-linkcard__label {
   display: inline-block;
   margin-bottom: 1.2rem;
+  color: #2563eb;
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.16em;
-  color: #2563eb;
 }
+
+/* =========================================================
+   Homepage about block
+   ========================================================= */
 
 .myj-about {
   display: grid;
@@ -204,14 +227,134 @@
 .myj-about--top {
   margin: 2.5rem 0 3.5rem;
   padding-top: 0;
-  border-top: 0;
   padding-bottom: 2.5rem;
+  border-top: 0;
   border-bottom: 1px solid rgba(148, 163, 184, 0.2);
 }
 
 .myj-about p {
   line-height: 1.9;
 }
+
+/* =========================================================
+   Content width / alignment
+   ========================================================= */
+
+.max-w-prose {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =========================================================
+   Single-page vertical spacing
+   ========================================================= */
+
+#single_header {
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+#single_header h1 {
+  margin-bottom: 0.25rem;
+}
+
+#single_header h1 + div {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.article-content > :first-child {
+  margin-top: 0 !important;
+}
+
+.article-content {
+  margin-bottom: 1.75rem !important;
+}
+
+article > footer.max-w-prose {
+  padding-top: 0 !important;
+}
+
+article > footer.max-w-prose > div {
+  padding-top: 1.25rem !important;
+}
+
+/* =========================================================
+   Site footer
+   ========================================================= */
+
+#site-footer {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.myj-footer {
+  margin-top: 1.5rem !important;
+  border-top: 1px solid rgba(148, 163, 184, 0.25);
+}
+
+.myj-footer__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 1.5rem;
+}
+
+.myj-footer__main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.myj-footer__title {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.myj-footer__text {
+  color: rgba(71, 85, 105, 0.8);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.myj-footer__en {
+  text-align: right;
+}
+
+.myj-footer__copyright {
+  margin-top: 2rem;
+  padding-top: 1.3rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.18);
+  text-align: center;
+  color: rgba(100, 116, 139, 0.8);
+  font-size: 0.8rem;
+}
+
+.dark .myj-footer__text {
+  color: rgba(203, 213, 225, 0.75);
+}
+
+/* =========================================================
+   Layout behavior
+   ========================================================= */
+
+body {
+  height: auto !important;
+  min-height: 100vh;
+}
+
+body > .relative.flex.flex-col.grow {
+  flex-grow: 0 !important;
+}
+
+#main-content {
+  flex-grow: 0 !important;
+}
+
+/* =========================================================
+   Responsive
+   ========================================================= */
 
 @media (max-width: 860px) {
   .myj-grid--research,
@@ -229,6 +372,17 @@
   }
 }
 
+@media (max-width: 700px) {
+  .myj-footer__main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .myj-footer__en {
+    text-align: left;
+  }
+}
+
 @media (max-width: 560px) {
   .myj-visual {
     min-height: 360px;
@@ -241,153 +395,10 @@
   }
 
   .myj-section {
-    margin: 3.2rem 0;
-  }
-}
-/* =========================
-   MyjLab Footer
-   ========================= */
-
-/* .myj-footer {
-  margin-top: 5rem;
-  border-top: 1px solid rgba(148, 163, 184, 0.25);
-} */
-
-.myj-footer {
-  margin-top: 2.5rem;
-  border-top: 1px solid rgba(148, 163, 184, 0.25);
-}
-.myj-footer__inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 3rem 1.5rem 1.8rem;
-}
-
-.myj-footer__main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-}
-
-.myj-footer__title {
-  font-size: 1.05rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-}
-
-.myj-footer__text {
-  font-size: 0.9rem;
-  line-height: 1.7;
-  color: rgba(71, 85, 105, 0.8);
-}
-
-.myj-footer__en {
-  text-align: right;
-}
-
-.myj-footer__copyright {
-  margin-top: 2rem;
-  padding-top: 1.3rem;
-  border-top: 1px solid rgba(148, 163, 184, 0.18);
-  text-align: center;
-  font-size: 0.8rem;
-  color: rgba(100, 116, 139, 0.8);
-}
-
-.dark .myj-footer__text {
-  color: rgba(203, 213, 225, 0.75);
-}
-
-/* mobile */
-
-@media (max-width: 700px) {
-  .myj-footer__main {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+    margin: 3rem 0;
   }
 
-  .myj-footer__en {
-    text-align: left;
+  .myj-section--soft {
+    padding: 1.5rem;
   }
-}
-
-/* TOPページ最後のセクション */
-.myj-section--last {
-  margin-bottom: 1rem;
-}
-.max-w-prose {
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* =========================================
-   MyjLab vertical spacing
-   ========================================= */
-
-/* ページタイトルと本文の間 */
-#single_header {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-#single_header h1 {
-  margin-bottom: 0.4rem;
-}
-
-/* 日付・文字数などを非表示にしている場合に残る余白を削減 */
-#single_header h1 + div {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-/* =========================================
-   Article bottom spacing
-   ========================================= */
-
-/* Blowfish標準の mb-20 = 5rem を縮小 */
-.article-content {
-  margin-bottom: 2rem !important;
-}
-
-/* 前へ・次へ の上側 */
-article > footer.max-w-prose {
-  padding-top: 1rem !important;
-}
-
-/* =========================================
-   Site footer
-   ========================================= */
-
-/* Blowfish標準の py-10 を縮小 */
-#site-footer {
-  padding-top: 1.5rem !important;
-  padding-bottom: 1.25rem !important;
-}
-
-/* 独自footer側には大きな上marginを付けない */
-.myj-footer {
-  margin-top: 0 !important;
-}
-
-/* =========================================
-   Homepage
-   ========================================= */
-
-/* TOP最後のセクションの下余白 */
-.myj-section:last-of-type {
-  margin-bottom: 2rem;
-}
-/* コンテンツが短いページでもfooterを無理に画面下へ押し下げない */
-
-body {
-  height: auto !important;
-  min-height: 100vh;
-}
-
-body > .relative.flex.flex-col.grow {
-  flex-grow: 0 !important;
-}
-
-#main-content {
-  flex-grow: 0 !important;
 }
