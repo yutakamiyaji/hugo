@@ -1,2 +1,19 @@
+# macOS
 .DS_Store
 .DS_Store?
+
+# Hugo generated files
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Local development
+.hugo_cache/
+tmp/
+
+# VS Code
+.vscode/
+
+# Environment / secrets
+.env
+.env.*

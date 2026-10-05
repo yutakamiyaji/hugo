@@ -13,8 +13,13 @@
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(9, 27, 64, .92) 0%, rgba(9, 27, 64, .72) 42%, rgba(9, 27, 64, .18) 100%),
-    url('/img/banners/banner-1.jpg') center/cover no-repeat;
+    linear-gradient(
+      90deg,
+      rgba(9, 27, 64, 0.92) 0%,
+      rgba(9, 27, 64, 0.72) 42%,
+      rgba(9, 27, 64, 0.18) 100%
+    ),
+    url("/img/banners/banner-1.jpg") center/cover no-repeat;
   transform: scale(1.02);
 }
 
@@ -27,7 +32,7 @@
 }
 
 .myj-visual__overlay h2 {
-  margin: .4rem 0 1rem;
+  margin: 0.4rem 0 1rem;
   font-size: clamp(2rem, 4vw, 3.4rem);
   line-height: 1.12;
   color: white;
@@ -37,15 +42,15 @@
   margin: 0;
   font-size: 1.08rem;
   line-height: 1.85;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .myj-visual__eyebrow,
 .myj-kicker {
   margin: 0;
-  font-size: .76rem;
+  font-size: 0.76rem;
   font-weight: 800;
-  letter-spacing: .22em;
+  letter-spacing: 0.22em;
   color: #2563eb;
 }
 
@@ -60,7 +65,11 @@
 .myj-section--soft {
   padding: 3.5rem;
   border-radius: 1.75rem;
-  background: linear-gradient(180deg, rgba(37,99,235,.055), rgba(37,99,235,.018));
+  background: linear-gradient(
+    180deg,
+    rgba(37, 99, 235, 0.055),
+    rgba(37, 99, 235, 0.018)
+  );
 }
 
 .myj-section__head {
@@ -70,16 +79,16 @@
 
 .myj-section__head h2,
 .myj-about h2 {
-  margin: .5rem 0 .75rem;
+  margin: 0.5rem 0 0.75rem;
   font-size: clamp(1.9rem, 3vw, 2.7rem);
 }
 
 .myj-section__head > p:last-child {
-  color: rgba(30, 41, 59, .78);
+  color: rgba(30, 41, 59, 0.78);
 }
 
 .dark .myj-section__head > p:last-child {
-  color: rgba(226, 232, 240, .72);
+  color: rgba(226, 232, 240, 0.72);
 }
 
 .myj-grid {
@@ -99,26 +108,29 @@
 .myj-linkcard {
   display: block;
   text-decoration: none !important;
-  transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease;
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    border-color 0.22s ease;
 }
 
 .myj-card {
   padding: 2rem;
-  border: 1px solid rgba(148,163,184,.28);
+  border: 1px solid rgba(148, 163, 184, 0.28);
   border-radius: 1.35rem;
-  background: rgba(255,255,255,.72);
-  box-shadow: 0 10px 35px rgba(15,23,42,.055);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 10px 35px rgba(15, 23, 42, 0.055);
 }
 
 .dark .myj-card {
-  background: rgba(15,23,42,.52);
-  border-color: rgba(148,163,184,.16);
+  background: rgba(15, 23, 42, 0.52);
+  border-color: rgba(148, 163, 184, 0.16);
 }
 
 .myj-card:hover,
 .myj-linkcard:hover {
   transform: translateY(-4px);
-  box-shadow: 0 18px 45px rgba(15,23,42,.12);
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
 }
 
 .myj-card__icon {
@@ -127,16 +139,16 @@
   width: 2.6rem;
   height: 2.6rem;
   margin-bottom: 1.15rem;
-  border-radius: .85rem;
-  background: rgba(37,99,235,.1);
+  border-radius: 0.85rem;
+  background: rgba(37, 99, 235, 0.1);
   color: #2563eb;
   font-weight: 800;
-  font-size: .86rem;
+  font-size: 0.86rem;
 }
 
 .myj-card h3,
 .myj-linkcard h3 {
-  margin: 0 0 .65rem;
+  margin: 0 0 0.65rem;
   font-size: 1.28rem;
 }
 
@@ -144,18 +156,18 @@
 .myj-linkcard p {
   margin: 0 0 1.2rem;
   line-height: 1.75;
-  color: rgba(51,65,85,.82);
+  color: rgba(51, 65, 85, 0.82);
 }
 
 .dark .myj-card p,
 .dark .myj-linkcard p {
-  color: rgba(226,232,240,.72);
+  color: rgba(226, 232, 240, 0.72);
 }
 
 .myj-card span {
   color: #2563eb;
   font-weight: 700;
-  font-size: .92rem;
+  font-size: 0.92rem;
 }
 
 .myj-linkcard {
@@ -163,30 +175,30 @@
   padding: 2rem;
   border-radius: 1.3rem;
   background: white;
-  border: 1px solid rgba(148,163,184,.22);
+  border: 1px solid rgba(148, 163, 184, 0.22);
 }
 
 .dark .myj-linkcard {
-  background: rgba(15,23,42,.66);
-  border-color: rgba(148,163,184,.15);
+  background: rgba(15, 23, 42, 0.66);
+  border-color: rgba(148, 163, 184, 0.15);
 }
 
 .myj-linkcard__label {
   display: inline-block;
   margin-bottom: 1.2rem;
-  font-size: .72rem;
+  font-size: 0.72rem;
   font-weight: 800;
-  letter-spacing: .16em;
+  letter-spacing: 0.16em;
   color: #2563eb;
 }
 
 .myj-about {
   display: grid;
-  grid-template-columns: .8fr 1.2fr;
+  grid-template-columns: 0.8fr 1.2fr;
   gap: 3rem;
   margin: 5rem 0 2rem;
   padding-top: 3rem;
-  border-top: 1px solid rgba(148,163,184,.2);
+  border-top: 1px solid rgba(148, 163, 184, 0.2);
 }
 
 .myj-about--top {
@@ -194,7 +206,7 @@
   padding-top: 0;
   border-top: 0;
   padding-bottom: 2.5rem;
-  border-bottom: 1px solid rgba(148,163,184,.2);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
 }
 
 .myj-about p {
@@ -231,4 +243,151 @@
   .myj-section {
     margin: 3.2rem 0;
   }
+}
+/* =========================
+   MyjLab Footer
+   ========================= */
+
+/* .myj-footer {
+  margin-top: 5rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.25);
+} */
+
+.myj-footer {
+  margin-top: 2.5rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.25);
+}
+.myj-footer__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 1.8rem;
+}
+
+.myj-footer__main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.myj-footer__title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.myj-footer__text {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: rgba(71, 85, 105, 0.8);
+}
+
+.myj-footer__en {
+  text-align: right;
+}
+
+.myj-footer__copyright {
+  margin-top: 2rem;
+  padding-top: 1.3rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.18);
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgba(100, 116, 139, 0.8);
+}
+
+.dark .myj-footer__text {
+  color: rgba(203, 213, 225, 0.75);
+}
+
+/* mobile */
+
+@media (max-width: 700px) {
+  .myj-footer__main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .myj-footer__en {
+    text-align: left;
+  }
+}
+
+/* TOPページ最後のセクション */
+.myj-section--last {
+  margin-bottom: 1rem;
+}
+.max-w-prose {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* =========================================
+   MyjLab vertical spacing
+   ========================================= */
+
+/* ページタイトルと本文の間 */
+#single_header {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+#single_header h1 {
+  margin-bottom: 0.4rem;
+}
+
+/* 日付・文字数などを非表示にしている場合に残る余白を削減 */
+#single_header h1 + div {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* =========================================
+   Article bottom spacing
+   ========================================= */
+
+/* Blowfish標準の mb-20 = 5rem を縮小 */
+.article-content {
+  margin-bottom: 2rem !important;
+}
+
+/* 前へ・次へ の上側 */
+article > footer.max-w-prose {
+  padding-top: 1rem !important;
+}
+
+/* =========================================
+   Site footer
+   ========================================= */
+
+/* Blowfish標準の py-10 を縮小 */
+#site-footer {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.25rem !important;
+}
+
+/* 独自footer側には大きな上marginを付けない */
+.myj-footer {
+  margin-top: 0 !important;
+}
+
+/* =========================================
+   Homepage
+   ========================================= */
+
+/* TOP最後のセクションの下余白 */
+.myj-section:last-of-type {
+  margin-bottom: 2rem;
+}
+/* コンテンツが短いページでもfooterを無理に画面下へ押し下げない */
+
+body {
+  height: auto !important;
+  min-height: 100vh;
+}
+
+body > .relative.flex.flex-col.grow {
+  flex-grow: 0 !important;
+}
+
+#main-content {
+  flex-grow: 0 !important;
 }
