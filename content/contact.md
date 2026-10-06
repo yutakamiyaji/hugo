@@ -24,4 +24,4 @@ E-Mail: uta[＠]si.aoyama.ac.jp
 JR 横浜線 淵野辺駅（各駅停車）から正門まで徒歩 7 分  
 [MAP](https://www.aoyama.ac.jp/outline/campus/sagamihara.html "Map")(相模原キャンパス キャンパスマップ 青山学院大学Web)
 
----
+
