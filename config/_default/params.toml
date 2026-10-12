@@ -6,7 +6,10 @@ enableCodeCopy = true
 mainSections = ["blog"]
 disableImageOptimization = false
 disableTextInHeader = true
+invertPagination = true
 
+  
+  
 [header]
   layout = "basic"
 
