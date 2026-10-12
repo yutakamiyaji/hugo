@@ -147,18 +147,27 @@
 }
 
 /* Homepage text sections */
+/* Homepage text sections */
 .myj-about,
 .myj-about--top {
   display: block;
-  margin: 2rem 0 1.5rem;
-  padding: 0;
+  margin: 2rem 0 2rem;
+  padding: 0 0 1.25rem;
   border: 0;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.22);
 }
 
 .myj-about p {
   margin-top: 0.75rem;
   margin-bottom: 0;
   line-height: 1.9;
+}
+
+/* 最後のセクションだけ下線を消して footer との間を詰める */
+.myj-about:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 0;
 }
 
 /* Content width / alignment */
@@ -206,10 +215,9 @@ article > footer.max-w-prose > div {
 }
 
 .myj-footer {
-  margin-top: 1.5rem !important;
+  margin-top: 0 !important;
   border-top: 1px solid rgba(148, 163, 184, 0.25);
 }
-
 .myj-footer__inner {
   max-width: 1200px;
   margin: 0 auto;
