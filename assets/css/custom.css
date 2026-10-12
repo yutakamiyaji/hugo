@@ -147,7 +147,6 @@
 }
 
 /* Homepage text sections */
-/* Homepage text sections */
 .myj-about,
 .myj-about--top {
   display: block;
@@ -165,8 +164,9 @@
 
 /* 最後のセクションだけ下線を消して footer との間を詰める */
 .myj-about:last-child {
+  margin-top: 1.25rem;
   margin-bottom: 0;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0;
   border-bottom: 0;
 }
 
