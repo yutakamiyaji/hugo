@@ -5,7 +5,7 @@ enableSearch = true
 enableCodeCopy = true
 mainSections = ["blog"]
 disableImageOptimization = false
-
+disableTextInHeader = true
 
 [header]
   layout = "basic"
@@ -44,3 +44,4 @@ disableImageOptimization = false
   showBreadcrumbs = true
   showSummary = true
   cardView = true
+
