@@ -6,7 +6,6 @@ enableCodeCopy = true
 mainSections = ["blog"]
 disableImageOptimization = false
 disableTextInHeader = true
-invertPagination = true
 
   
   
@@ -35,6 +34,8 @@ invertPagination = true
   showBreadcrumbs = false
   showPagination = true
   showTaxonomies = false
+  invertPagination = true
+
 
 [list]
   showBreadcrumbs = true

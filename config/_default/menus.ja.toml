@@ -15,7 +15,7 @@
 
 [[main]]
   name = "教育・ゼミ"
-  pageRef = "education"
+  pageRef = "study"
   weight = 40
 
 [[main]]
