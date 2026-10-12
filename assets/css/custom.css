@@ -1,16 +1,14 @@
 /* =========================================================
    MyjLab custom styles
+   Cleaned and consolidated
    ========================================================= */
 
-/* =========================================================
-   Homepage visual
-   ========================================================= */
-
+/* Homepage visual */
 .myj-visual {
   position: relative;
   overflow: hidden;
   min-height: 250px;
-  margin: 3rem 0;
+  margin: 2.5rem 0 3rem;
   border-radius: 1.75rem;
   background: #0f2a5f;
   box-shadow: 0 24px 70px rgba(15, 42, 95, 0.18);
@@ -34,13 +32,13 @@
   position: relative;
   z-index: 1;
   max-width: 740px;
-  padding: 4.5rem 4rem;
+  padding: 3rem 4rem;
   margin-left: 5%;
   color: white;
 }
 
 .myj-visual__overlay h2 {
-  margin: 0.4rem 0 1rem;
+  margin: 0.25rem 0 0.75rem;
   font-size: clamp(1.7rem, 3vw, 2.8rem);
   line-height: 1.15;
   color: white;
@@ -49,33 +47,17 @@
 .myj-visual__overlay p {
   margin: 0;
   font-size: 1.08rem;
-  line-height: 1.85;
+  line-height: 1.75;
   color: rgba(255, 255, 255, 0.9);
 }
 
-.myj-visual__eyebrow,
-.myj-kicker {
-  margin: 0;
-  font-size: 0.76rem;
-  font-weight: 800;
-  letter-spacing: 0.22em;
-  color: #2563eb;
-}
-
-.myj-visual__eyebrow {
-  color: #9ec5ff !important;
-}
-
-/* =========================================================
-   Homepage sections
-   ========================================================= */
-
+/* Homepage sections */
 .myj-section {
-  margin: 3.5rem 0;
+  margin: 3rem 0;
 }
 
 .myj-section--soft {
-  padding: 3.5rem;
+  padding: 3rem;
   border-radius: 1.75rem;
   background: linear-gradient(
     180deg,
@@ -84,22 +66,19 @@
   );
 }
 
-.myj-section--last {
-  margin-bottom: 1.5rem;
-}
-
 .myj-section__head {
   max-width: 760px;
-  margin-bottom: 2rem;
+  margin-bottom: 1.75rem;
 }
 
 .myj-section__head h2,
 .myj-about h2 {
-  margin: 0.5rem 0 0.75rem;
+  margin: 0.25rem 0 0.65rem;
   font-size: clamp(1.9rem, 3vw, 2.7rem);
 }
 
 .myj-section__head > p:last-child {
+  margin-bottom: 0;
   color: rgba(30, 41, 59, 0.78);
 }
 
@@ -107,10 +86,7 @@
   color: rgba(226, 232, 240, 0.72);
 }
 
-/* =========================================================
-   Homepage grids / cards
-   ========================================================= */
-
+/* Homepage research cards */
 .myj-grid {
   display: grid;
   gap: 1.25rem;
@@ -118,20 +94,6 @@
 
 .myj-grid--research {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.myj-grid--links {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
-.myj-card,
-.myj-linkcard {
-  display: block;
-  text-decoration: none !important;
-  transition:
-    transform 0.22s ease,
-    box-shadow 0.22s ease,
-    border-color 0.22s ease;
 }
 
 .myj-card {
@@ -147,12 +109,6 @@
   border-color: rgba(148, 163, 184, 0.16);
 }
 
-.myj-card:hover,
-.myj-linkcard:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
-}
-
 .myj-card__icon {
   display: inline-grid;
   place-items: center;
@@ -166,91 +122,53 @@
   font-weight: 800;
 }
 
-.myj-card h3,
-.myj-linkcard h3 {
+.myj-card h3 {
   margin: 0 0 0.65rem;
   font-size: 1.28rem;
 }
 
-.myj-card p,
-.myj-linkcard p {
-  margin: 0 0 1.2rem;
+.myj-card p {
+  margin: 0;
   line-height: 1.75;
   color: rgba(51, 65, 85, 0.82);
 }
 
-.dark .myj-card p,
-.dark .myj-linkcard p {
+.dark .myj-card p {
   color: rgba(226, 232, 240, 0.72);
 }
 
-.myj-card span {
-  color: #2563eb;
-  font-size: 0.92rem;
+.myj-section__more {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.myj-section__more a {
   font-weight: 700;
 }
 
-.myj-linkcard {
-  min-height: 220px;
-  padding: 2rem;
-  border: 1px solid rgba(148, 163, 184, 0.22);
-  border-radius: 1.3rem;
-  background: white;
-}
-
-.dark .myj-linkcard {
-  background: rgba(15, 23, 42, 0.66);
-  border-color: rgba(148, 163, 184, 0.15);
-}
-
-.myj-linkcard__label {
-  display: inline-block;
-  margin-bottom: 1.2rem;
-  color: #2563eb;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.16em;
-}
-
-/* =========================================================
-   Homepage about block
-   ========================================================= */
-
-.myj-about {
-  display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
-  gap: 3rem;
-  margin: 5rem 0 2rem;
-  padding-top: 3rem;
-  border-top: 1px solid rgba(148, 163, 184, 0.2);
-}
-
+/* Homepage text sections */
+.myj-about,
 .myj-about--top {
-  margin: 2.5rem 0 3.5rem;
-  padding-top: 0;
-  padding-bottom: 2.5rem;
-  border-top: 0;
-  border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+  display: block;
+  margin: 2rem 0 1.5rem;
+  padding: 0;
+  border: 0;
 }
 
 .myj-about p {
+  margin-top: 0.75rem;
+  margin-bottom: 0;
   line-height: 1.9;
 }
 
-/* =========================================================
-   Content width / alignment
-   ========================================================= */
-
+/* Content width / alignment */
 .max-w-prose {
   max-width: 1100px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* =========================================================
-   Single-page vertical spacing
-   ========================================================= */
-
+/* Single-page vertical spacing */
 #single_header {
   margin-top: 1.25rem;
   margin-bottom: 0.75rem;
@@ -281,10 +199,7 @@ article > footer.max-w-prose > div {
   padding-top: 1.25rem !important;
 }
 
-/* =========================================================
-   Site footer
-   ========================================================= */
-
+/* Site footer */
 #site-footer {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
@@ -336,10 +251,7 @@ article > footer.max-w-prose > div {
   color: rgba(203, 213, 225, 0.75);
 }
 
-/* =========================================================
-   Layout behavior
-   ========================================================= */
-
+/* Layout behavior */
 body {
   height: auto !important;
   min-height: 100vh;
@@ -353,14 +265,23 @@ body > .relative.flex.flex-col.grow {
   flex-grow: 0 !important;
 }
 
-/* =========================================================
-   Responsive
-   ========================================================= */
+/* Header / homepage title */
+header .logo {
+  width: auto;
+  height: 46px;
+  max-width: 150px !important;
+  max-height: 46px !important;
+}
 
+#main-content > div > h1 {
+  font-weight: 100 !important;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}
+
+/* Responsive */
 @media (max-width: 860px) {
-  .myj-grid--research,
-  .myj-grid--links,
-  .myj-about {
+  .myj-grid--research {
     grid-template-columns: 1fr;
   }
 
@@ -369,7 +290,8 @@ body > .relative.flex.flex-col.grow {
   }
 
   .myj-visual__overlay {
-    padding: 3rem 2rem;
+    padding: 2.75rem 2rem;
+    margin-left: 0;
   }
 }
 
@@ -386,51 +308,29 @@ body > .relative.flex.flex-col.grow {
 
 @media (max-width: 560px) {
   .myj-visual {
-    min-height: 260px;
+    min-height: 240px;
+    margin: 2rem 0 2.5rem;
     border-radius: 1.2rem;
   }
 
-  .myj-card,
-  .myj-linkcard {
+  .myj-visual__overlay {
+    padding: 2.25rem 1.5rem;
+  }
+
+  .myj-card {
     padding: 1.5rem;
   }
 
   .myj-section {
-    margin: 3rem 0;
+    margin: 2.5rem 0;
   }
 
   .myj-section--soft {
     padding: 1.5rem;
   }
-}
 
-/* Header logo */
-header .logo {
-  width: auto;
-  height: 46px;
-  max-width: 150px !important;
-  max-height: 46px !important;
-}
-
-.myj-about {
-  display: block;
-  margin: 5rem 0 2rem;
-  padding-top: 3rem;
-  border-top: 1px solid rgba(148, 163, 184, 0.2);
-}
-
-.myj-section__more {
-  margin-top: 1.75rem;
-  margin-bottom: 0;
-}
-
-.myj-section__more a {
-  font-weight: 700;
-}
-
-/* Top page title */
-#main-content > div > h1 {
-  font-weight: 100 !important;
-  letter-spacing: 0.01em;
-  line-height: 1.2;
+  .myj-about,
+  .myj-about--top {
+    margin: 1.5rem 0 1.25rem;
+  }
 }
