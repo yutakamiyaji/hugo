@@ -14,9 +14,11 @@ title = "MyjLab"
 [params.author]
   name = "宮治研究室（MyjLab）"
   headline = "青山学院大学 社会情報学部 / Network-based Engineering Systems Lab."
-  bio = "実世界とネットをつなぎ、データと情報技術で社会に役立つサービスを研究します。"
+  bio = "実世界とネットをつなぎ、データと様々な情報技術を組み合わせてで社会に役立つサービスを研究します。"
   links = [
     { github = "https://github.com/myjlab" },
     { facebook = "https://facebook.com/yutakamiyaji/" },
     { x-twitter = "https://twitter.com/yutakamiyaji/" }
   ]
+
+disableTextInHeader = true

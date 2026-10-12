@@ -3,7 +3,7 @@ date = "2016-08-22T17:45:38+09:00"
 slug = ""
 tags = ["", ""]
 title = "Contact"
-
+weight = 60
 +++
 
 ---
