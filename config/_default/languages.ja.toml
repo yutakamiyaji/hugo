@@ -9,6 +9,7 @@ title = "MyjLab"
   rtl = false
   dateFormat = "2006年1月2日"
   description = "宮治研究室（MyjLab）― 青山学院大学 社会情報学部 ネットワーク情報システム研究室"
+logo = "img/myjlab-logo.png"
 
 [params.author]
   name = "宮治研究室（MyjLab）"

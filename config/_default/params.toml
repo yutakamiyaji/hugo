@@ -6,6 +6,7 @@ enableCodeCopy = true
 mainSections = ["blog"]
 disableImageOptimization = false
 
+
 [header]
   layout = "basic"
 
@@ -43,3 +44,10 @@ disableImageOptimization = false
   showBreadcrumbs = true
   showSummary = true
   cardView = true
+
+
+
+[params]
+  displayName = "JA"
+  isoCode = "ja-JP"
+  logo = "img/myjlab-logo.png"

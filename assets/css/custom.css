@@ -402,3 +402,27 @@ body > .relative.flex.flex-col.grow {
     padding: 1.5rem;
   }
 }
+
+/* Header logo */
+header .logo {
+  width: auto;
+  height: 46px;
+  max-width: 150px !important;
+  max-height: 46px !important;
+}
+
+.myj-about {
+  display: block;
+  margin: 5rem 0 2rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.myj-section__more {
+  margin-top: 1.75rem;
+  margin-bottom: 0;
+}
+
+.myj-section__more a {
+  font-weight: 700;
+}
