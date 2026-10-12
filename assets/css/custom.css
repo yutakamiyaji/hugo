@@ -219,9 +219,7 @@ article > footer.max-w-prose > div {
   border-top: 1px solid rgba(148, 163, 184, 0.25);
 }
 .myj-footer__inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem 1.5rem;
+  padding: 1.25rem 1.5rem 1.5rem;
 }
 
 .myj-footer__main {
