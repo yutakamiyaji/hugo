@@ -1,0 +1,24 @@
+languageCode = "ja"
+languageName = "日本語"
+weight = 1
+title = "MyjLab"
+
+[params]
+  displayName = "日本語"
+  isoCode = "ja"
+  rtl = false
+  dateFormat = "2006年1月2日"
+  description = "宮治研究室（MyjLab）― 青山学院大学 社会情報学部 ネットワーク情報システム研究室"
+  logo = "img/myjlab-logo.png"
+
+[params.author]
+  name = "宮治研究室（MyjLab）"
+  headline = "青山学院大学 社会情報学部 / Network-based Engineering Systems Lab."
+  bio = "実世界とネットをつなぎ、データと様々な情報技術を組み合わせて社会に役立つサービスを研究します。"
+  links = [
+    { github = "https://github.com/myjlab" },
+    { facebook = "https://facebook.com/yutakamiyaji/" },
+    { x-twitter = "https://twitter.com/yutakamiyaji/" }
+  ]
+
+disableTextInHeader = true

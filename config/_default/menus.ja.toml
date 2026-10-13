@@ -1,0 +1,29 @@
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "研究室について"
+  pageRef = "about"
+  weight = 20
+
+[[main]]
+  name = "研究テーマ"
+  pageRef = "themes"
+  weight = 30
+
+[[main]]
+  name = "教育・ゼミ"
+  pageRef = "studies"
+  weight = 40
+
+[[main]]
+  name = "メンバー"
+  pageRef = "members"
+  weight = 50
+
+[[main]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 60
